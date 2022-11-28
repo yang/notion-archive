@@ -4,7 +4,7 @@ name: Export my notion workspace
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Call the export every 6 hours
+    - cron: "0 12 * * *" # Call the export every 4am PT
   workflow_dispatch: {}
 
 jobs:
