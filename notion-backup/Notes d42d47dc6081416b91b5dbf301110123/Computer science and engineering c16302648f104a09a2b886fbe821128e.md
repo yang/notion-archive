@@ -3,6 +3,7 @@
 - Systems
     - [Database systems](Database%20systems%202a6befdff82c4dab93b22722ed4253b8.md)
     - Operating systems
+    - [Dataflow systems](Dataflow%20systems%206796626392d5487caa063dc6ac6e91a5.md)
 - Programming languages
     - Type systems
 - Machine learning
@@ -14,3 +15,7 @@
     - [CRDTs](CRDTs%20f6b225a99fb14cbd80f218c1b1b43a15.md)
     - [Operational transform](Operational%20transform%20483359996974469a9115822368269691.md)
     - [Editing DAGs concurrently](Editing%20DAGs%20concurrently%200c8a6f0e58f94c8caf7317205710ef67.md)
+- Concepts
+    - Cache maintenance: [https://yz.mit.edu/posts/cache-maintenance/](https://yz.mit.edu/posts/cache-maintenance/)
+    - [Commutativity](Commutativity%2067dc8334094f482d9214d37f069536c0.md)
+    - [Vectorization](Vectorization%2020fe9fcd0dbe43d58038ebbeba29d3bf.md)
