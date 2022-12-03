@@ -6,8 +6,8 @@
     - [Dataflow systems](Dataflow%20systems%206796626392d5487caa063dc6ac6e91a5.md)
 - Programming languages
     - Type systems
-- Machine learning
-    - Deep learning
+- [Machine learning](Machine%20learning%208a5a1fac3afb410ab5fee90c4c9ec502.md)
+    - [Deep learning](Deep%20learning%201072896d5cd64cc0adaeaec06bcd5db3.md)
 - Sandboxing
     - Server sandboxing: [https://yz.mit.edu/posts/server-sandboxing/](https://yz.mit.edu/posts/server-sandboxing/)
     - [Browser sandboxing](Browser%20sandboxing%20c16964ff2b6149149599411613eee332.md)
