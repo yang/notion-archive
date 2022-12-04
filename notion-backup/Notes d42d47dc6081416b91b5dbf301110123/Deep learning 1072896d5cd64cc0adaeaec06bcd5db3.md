@@ -16,3 +16,6 @@
     - Autoencoder
     - GAN
     - RNNs have to consume all input before producing output, so are limited by ability to memorize things
+- Implementations
+    - ChatGPT
+        - [Everything We Know About ChatGPT So Far - by swyx](https://lspace.swyx.io/p/everything-we-know-about-chatgpt)

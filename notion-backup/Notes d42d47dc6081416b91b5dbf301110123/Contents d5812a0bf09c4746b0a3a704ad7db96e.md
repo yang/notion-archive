@@ -1,5 +1,6 @@
 # Contents
 
+- [Old notes repo](https://github.com/yang/notes)
 - Development
     - [General development](General%20development%20f9d969d11f0d4cbb8f0bd1def913fc60.md)
     - [Web development](Web%20development%20768a80680473459b963814b7f4a9c716.md)
@@ -9,9 +10,9 @@
 - Software
     - [Software notes](Software%20notes%20b3036187b43644f2afd7642385798978.md)
     - [Software comparisons](Software%20comparisons%201d1766d72f084dbb87fa5249bbc9633f.md)
-- Personal computing setups
-    - [Data archiving and migration practices](Data%20archiving%20and%20migration%20practices%202088b999c7524655a08029d2b140760d.md)
-    - [Mac setups](Mac%20setups%20dd0f3fae3aef4d3f816fb4a0183e18b1.md)
+    - Personal computing setups
+        - [Data backup and migration practices](Data%20backup%20and%20migration%20practices%202088b999c7524655a08029d2b140760d.md)
+        - [Mac setups](Mac%20setups%20dd0f3fae3aef4d3f816fb4a0183e18b1.md)
 - [Design](Design%203553ef3c35694ea591c19428e4c5b63e.md)
 - [Vendors](Vendors%20fabd302c5b044bb09b96283f06aab982.md)
 - Misc

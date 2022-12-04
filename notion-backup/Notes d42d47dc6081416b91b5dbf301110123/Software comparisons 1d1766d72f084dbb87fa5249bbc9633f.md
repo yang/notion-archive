@@ -5,14 +5,18 @@
         - Pros
             - Supports tables
             - Web-based, collaborative
+            - Widely used, various third party tooling
         - Cons
             - Not great keyboard friendliness
             - Proprietary
             - Freeform
+            - No built-in knowledge graph
+            - Some limitations to Markdown including no blockquoted formatted blocks (such as blockquoted h1’s or lists)
     - Obsidian
         - More free-form markdown editor
         - Pros
             - More polished
+            - Free
         - Cons
             - Proprietary
             - Freeform
@@ -24,6 +28,7 @@
         - Cons
             - No tables
             - Not web-based/collaborative
+            - Writing / note-taking
 - Team wiki / knowledge base
     - Notion
         - Min pricing: 8/user/mo

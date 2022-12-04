@@ -4,8 +4,9 @@
     - [Database systems](Database%20systems%202a6befdff82c4dab93b22722ed4253b8.md)
     - Operating systems
     - [Dataflow systems](Dataflow%20systems%206796626392d5487caa063dc6ac6e91a5.md)
-- Programming languages
-    - Type systems
+    - [Computer architecture](Computer%20architecture%20ef47a6e7c62f4d06bd7a1f4f96983857.md)
+- [Programming languages](Programming%20languages%2081fc19a9a09547b1b2d00057b5bf421f.md)
+    - [Compilers](Compilers%208975f48689cf4915937d0bd1250b5e63.md)
 - [Machine learning](Machine%20learning%208a5a1fac3afb410ab5fee90c4c9ec502.md)
     - [Deep learning](Deep%20learning%201072896d5cd64cc0adaeaec06bcd5db3.md)
 - Sandboxing
