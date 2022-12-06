@@ -83,6 +83,7 @@
         exa
         fd
         findutils
+        flyctl
         fzf
         gdu
         gh
