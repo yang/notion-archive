@@ -107,8 +107,9 @@
         py-awscli2 # py310-awscli2
         realpath
         ripgrep
-        stern
         sd
+        steampipe
+        stern
         terraform
         trash
         zoxide
