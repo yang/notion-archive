@@ -13,8 +13,57 @@
         - Resources
             - Andrew Ng intuition: [https://www.youtube.com/watch?v=ZU12u6-ewP0](https://www.youtube.com/watch?v=ZU12u6-ewP0)
     - Encoder-decoder
+        - 2-phase: first encode into a fixed vector representation of the entire text, then decode into a new sentence.
+            
+            ```bash
+            Input: "The cat sat on the mat"
+                         _________________________
+                        |                         |
+                        |                         v
+               Encoder ----> Fixed-length vector representation
+                        |                         |
+                        |_________________________|
+                                                
+                  Output: "Le chat était assis sur le tapis"
+                         _________________________
+                        |                         |
+                        |                         v
+               Decoder ----> Translation: "Le chat était assis sur le tapis"
+            ```
+            
+        - Mostly limited by memory.
+        - Similar to autoencoders, but autoencoders for unsupervised, encode-decoder for supervised
     - Autoencoder
+        - An encoder-decoder that tries to decode back to the original input to the encoder. Thus for unsupervised / unlabeled learning.
+            
+            ```bash
+            Autoencoder:
+                  Input: "The cat sat on the mat"
+                         _________________________
+                        |                         |
+                        |                         v
+               Encoder ----> Fixed-length vector representation
+                        |                         |
+                        |_________________________|
+                        |                         |
+                        |                         v
+               Decoder ----> Reconstruction: "The cat sat on the mat"
+            
+                  Encoder-decoder:
+                  Input: "The cat sat on the mat"
+                         _________________________
+                        |                         |
+                        |                         v
+               Encoder ----> Fixed-length vector representation
+                        |                         |
+                        |_________________________|
+                        |                         |
+                        |                         v
+               Decoder ----> Translation: "Le chat était assis sur le tapis"
+            ```
+            
     - GAN
+        - Generator network and discriminator network in competition
     - RNNs have to consume all input before producing output, so are limited by ability to memorize things
 - Implementations
     - ChatGPT
