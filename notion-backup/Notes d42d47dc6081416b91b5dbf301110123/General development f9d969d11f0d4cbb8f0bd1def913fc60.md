@@ -1,5 +1,18 @@
 # General development
 
+# Structural search and replace
+
+- Comby
+    - Not enough syntax knowlegde. E.g., `:[x] instanceof :[y]` will make `x` match something like `key: value` in `{ key: value instanceof Class }` !
+- Semgrep
+    - 
+- [astx](https://github.com/codemodsquad/astx): for Typescript
+    
+    ![Untitled](General%20development%20f9d969d11f0d4cbb8f0bd1def913fc60/Untitled.png)
+    
+- Resources
+    - [Comby vs Semgrep](https://comby.dev/docs/faq#how-does-comby-compare-to-tools-like-semgrep-and-coccinelle)
+
 # POSIX
 
 - fork() doesn’t work for multithreaded processes ([source](https://stackoverflow.com/questions/1235516/fork-in-multi-threaded-program))
