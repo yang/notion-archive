@@ -2,14 +2,17 @@
 
 # Structural search and replace
 
+- IntelliJ
+    - Just works
 - Comby
     - Not enough syntax knowlegde. E.g., `:[x] instanceof :[y]` will make `x` match something like `key: value` in `{ key: value instanceof Class }` !
 - Semgrep
-    - 
+    - Promising but [buggy](https://github.com/returntocorp/semgrep/issues/6687)
 - [astx](https://github.com/codemodsquad/astx): for Typescript
-    
-    ![Untitled](General%20development%20f9d969d11f0d4cbb8f0bd1def913fc60/Untitled.png)
-    
+    - Was not able to get started, seemed fussy at minimum
+        
+        ![Untitled](General%20development%20f9d969d11f0d4cbb8f0bd1def913fc60/Untitled.png)
+        
 - Resources
     - [Comby vs Semgrep](https://comby.dev/docs/faq#how-does-comby-compare-to-tools-like-semgrep-and-coccinelle)
 
