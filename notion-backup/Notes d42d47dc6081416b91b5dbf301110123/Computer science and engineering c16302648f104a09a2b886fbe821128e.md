@@ -9,6 +9,7 @@
     - [Compilers](Compilers%208975f48689cf4915937d0bd1250b5e63.md)
 - [Machine learning](Machine%20learning%208a5a1fac3afb410ab5fee90c4c9ec502.md)
     - [Deep learning](Deep%20learning%201072896d5cd64cc0adaeaec06bcd5db3.md)
+    - [Deep learning and software engineering](Deep%20learning%20and%20software%20engineering%2045a9dd27343b41ba8f5f7999d1975db9.md)
 - Sandboxing
     - Server sandboxing: [https://yz.mit.edu/posts/server-sandboxing/](https://yz.mit.edu/posts/server-sandboxing/)
     - [Browser sandboxing](Browser%20sandboxing%20c16964ff2b6149149599411613eee332.md)

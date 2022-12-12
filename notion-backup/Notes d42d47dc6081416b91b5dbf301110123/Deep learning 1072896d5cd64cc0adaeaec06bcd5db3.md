@@ -68,3 +68,9 @@
 - Implementations
     - ChatGPT
         - [Everything We Know About ChatGPT So Far - by swyx](https://lspace.swyx.io/p/everything-we-know-about-chatgpt)
+    - Stability Diffusion by Stability AI
+    - GPT-Neo, GPT-J by EleutherAI
+- Experiments with language models and computing
+    - [Nat Friedman on Twitter: "I’ve been playing with using GPT-3 to control a browser the last couple days. Here’s a quick demo. As you can see it's pretty neat! But also quite flakey. Will publish the source code shortly for others to try and improve. https://t.co/vXSIBsM7Rp" / Twitter](https://twitter.com/natfriedman/status/1575631194032549888)
+        - https://github.com/nat/natbot
+    - [Sharif Shameem on Twitter: "I gave GPT-3 access to Chrome with the objective "please buy me Airpods". Pretty interesting if you ask me 🤔 https://t.co/zwHPLZOlUJ" / Twitter](https://twitter.com/sharifshameem/status/1405462642936799247)

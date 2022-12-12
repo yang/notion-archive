@@ -22,10 +22,58 @@
 
 # Regular expression alternatives
 
-- Rulex [https://news.ycombinator.com/item?id=31690878](https://news.ycombinator.com/item?id=31690878)
 - Melody [https://news.ycombinator.com/item?id=30358554](https://news.ycombinator.com/item?id=30358554)
-- Pomsky [https://pomsky-lang.org/](https://pomsky-lang.org/)
+- Pomsky (formerly Rulex) [https://pomsky-lang.org/](https://pomsky-lang.org/)
+    - HN [https://news.ycombinator.com/item?id=31690878](https://news.ycombinator.com/item?id=31690878)
+    
+    ```bash
+    'Hello' ' '+ ('world' | 'pomsky')
+    
+    // semantic version regex
+    (?P<major> \d+) \. (?P<minor> \d+) \. (?P<patch> \d+)
+    (?:
+      - (?P<prerelease> [0-9a-zA-Z\-]+ (?: \. [0-9a-zA-Z\-]+ )* )
+    )?
+    (?:
+      \+ (?P<buildmeta> [0-9a-zA-Z\-]+ (?: \. [0-9a-zA-Z\-]+ )* )
+    )?
+    
+    // pomsky
+    let number = [digit]+;
+    let identifier = [ascii_alnum '-']+;
+    let identifiers = identifier ('.' identifier)*;
+    
+    :major(number) '.' :minor(number) '.' :patch(number)
+    ('-' :prerelease(identifiers))?
+    ('+' :buildmeta(identifiers))?
+    ```
+    
 - VerbalExpressions [https://github.com/VerbalExpressions/JSVerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions)
+    
+    ```bash
+    // Create an example of how to test for correctly formed URLs
+    const tester = VerEx()
+        .startOfLine()
+        .then('http')
+        .maybe('s')
+        .then('://')
+        .maybe('www.')
+        .anythingBut(' ')
+        .endOfLine();
+    
+    // Create an example URL
+    const testMe = 'https://www.google.com';
+    
+    // Use RegExp object's native test() function
+    if (tester.test(testMe)) {
+        alert('We have a correct URL'); // This output will fire
+    } else {
+        alert('The URL is incorrect');
+    }
+    
+    console.log(tester); // Outputs the actual expression used: /^(http)(s)?(\:\/\/)(www\.)?([^\ ]*)$/
+    ```
+    
 - Kleenexp [https://github.com/SonOfLilit/kleenexp](https://github.com/SonOfLilit/kleenexp)
 - EggExp [https://www.oilshell.org/release/latest/doc/eggex.html](https://www.oilshell.org/release/latest/doc/eggex.html)
 - Compose Regxp [https://github.com/compose-regexp/compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js)
