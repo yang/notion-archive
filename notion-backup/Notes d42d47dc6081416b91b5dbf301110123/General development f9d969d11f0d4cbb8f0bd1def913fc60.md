@@ -5,7 +5,9 @@
 - IntelliJ
     - Just works
 - Comby
-    - Not enough syntax knowlegde. E.g., `:[x] instanceof :[y]` will make `x` match something like `key: value` in `{ key: value instanceof Class }` !
+    - Works!
+    - Might time out even on simple files
+    - Somewhat strange default—e.g., `:[x] instanceof :[y]` will make `x` match something like `key: value` in `{ key: value instanceof Class }` ! But can use `:[x:e] instanceof :[y]`
 - Semgrep
     - Promising but [buggy](https://github.com/returntocorp/semgrep/issues/6687)
 - [astx](https://github.com/codemodsquad/astx): for Typescript
