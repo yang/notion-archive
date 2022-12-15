@@ -1,9 +1,16 @@
 # Deep learning and software engineering
 
 - Learning materials
+    - Survey of neural program synthesis: [Advanced Machine Learning Day 3: Neural Program Synthesis - YouTube](https://www.youtube.com/watch?v=nlgA2gnwscQ&list=WL&index=8)
     - MIT Lectures: [Introduction to Program Synthesis](https://people.csail.mit.edu/asolar/SynthesisCourse/index.htm)
     - IISC Lectures: [Program Synthesis meets Machine Learning](https://www.csa.iisc.ac.in/~deepakd/psml-2020/)
     - CVPR workshops: [Neuro-Symbolic Visual Reasoning and Program Synthesis](http://nscv.csail.mit.edu/)
+- Ways to bridge ML and program synthesis
+    - Pure symbolic search, e.g. FlashFill—problem is exponential, must craft a DSL that balances expressivity and concision (for practically reducing search time)
+    - Symbolic search guided by neural network that ranks, at each node in the AST, what are most likely. Truncate least likely. Explore several nodes breadth first to avoid dead ends. (Is this what RobustFill is?)
+    - Pure neural search. E.g. the SQL work. Treat as machine translation. Use encoder-decoder with attention.
+        - To guarantee programs that at least compile, can (a) tweak the standard beam search that generates the final output to also discard invalid strings-so-far, and (b) tweak the neural search itself to only consider, at each step, the valid next tokens [did not understand how this works].
+    - Model programs as not just ASTs (which is an improvement over linear sequence of tokens), but as graphs that capture semantic information, such as what’s observed by compilers computing dataflow dependencies (also includes the linear sequence chain and AST tree)
 - Opportunities
     - Editing large code
     - Learning to use libraries empirically
@@ -11,6 +18,8 @@
     - Generating domain specific representations multi-modally
 - TODO Unsorted
     - [DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning - YouTube](https://www.youtube.com/watch?v=qtu0aSTDE2I)
+        - Alternates between sleep and wake phases
+        - Combines multiple techniques—symbolic search, neural search, and PGM
     - [AI Coding with CodeRL: Toward Mastering Program Synthesis with Deep Reinforcement Learning](https://blog.salesforceairesearch.com/coderl/)
         - [code](https://github.com/salesforce/CodeRL)
 - Spreadsheet applications
@@ -35,4 +44,4 @@
         ![Untitled](Deep%20learning%20and%20software%20engineering%2045a9dd27343b41ba8f5f7999d1975db9/Untitled.png)
         
 - Implementations
-    -
+-
