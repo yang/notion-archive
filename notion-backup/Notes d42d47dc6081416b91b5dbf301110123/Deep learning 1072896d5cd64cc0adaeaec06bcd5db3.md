@@ -74,3 +74,15 @@
     - [Nat Friedman on Twitter: "I’ve been playing with using GPT-3 to control a browser the last couple days. Here’s a quick demo. As you can see it's pretty neat! But also quite flakey. Will publish the source code shortly for others to try and improve. https://t.co/vXSIBsM7Rp" / Twitter](https://twitter.com/natfriedman/status/1575631194032549888)
         - https://github.com/nat/natbot
     - [Sharif Shameem on Twitter: "I gave GPT-3 access to Chrome with the objective "please buy me Airpods". Pretty interesting if you ask me 🤔 https://t.co/zwHPLZOlUJ" / Twitter](https://twitter.com/sharifshameem/status/1405462642936799247)
+- Practice
+    - Something like GPT-NeoX (20B) requires ~40GB for just weights, ~45GB for inference—no single consumer GPU for this, so need (say) 2x 3090s ([source](https://www.youtube.com/watch?v=bAY85Om5O6A))
+- Bibliography
+    - BERT: [[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+    - GPT3: [[2005.14165] Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+    - ??: [[2205.11916] Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)
+    - Transformers: [[1706.03762] Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- TODO understand definitions
+    - seq2seq
+    - bidirectional lstm
+    - embed strings
+    - lstm that attends over the input string as well as conditioned on the input statement

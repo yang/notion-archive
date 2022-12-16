@@ -43,5 +43,42 @@
         
         ![Untitled](Deep%20learning%20and%20software%20engineering%2045a9dd27343b41ba8f5f7999d1975db9/Untitled.png)
         
+- Bibliography
+    - [[2007.03629] Strong Generalization and Efficiency in Neural Programs](https://arxiv.org/abs/2007.03629)
+    - [[2207.11765] Neurosymbolic Repair for Low-Code Formula Languages](https://arxiv.org/abs/2207.11765)
+    - [[2108.07732] Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732)
+    - [State of Deep Learning for Code Generation (DL4Code) | Victor Dibia](https://victordibia.com/blog/deep-learning-code-generation/)
+    - [DeepCoder: Learning to Write Programs - Microsoft Research](https://www.microsoft.com/en-us/research/publication/deepcoder-learning-write-programs/)
+    - [Competitive programming with AlphaCode](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+    - [OpenAI Codex](https://openai.com/blog/openai-codex/)
+    - [[2002.08155] CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155)
+    - What is this…. [[2109.00859] CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859)
+    - [Conversational AI Programming with CodeGen: Let AI Write Code For You](https://blog.salesforceairesearch.com/codegen/)
+    - [[2107.03374] Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)
+- Example applications
+    - The Figma prototype: [I build my ideas #8 - 07/19/20](https://ibuildmyideas.substack.com/p/i-build-my-ideas-8-071920)
+        
+        ![Untitled](Deep%20learning%20and%20software%20engineering%2045a9dd27343b41ba8f5f7999d1975db9/Untitled%201.png)
+        
+    
+    ```
+    {
+        "navigation": [
+            {"icon": "camera"},
+            {"title: "Photos"},
+            {"icon": "message"}
+        ],
+        "photos": [
+            {"icon": "user"},
+            {"frame": "photo"},
+            {"icon": "heart"},
+            {"icon": "chat bubble"}
+        ]
+    }
+    ```
+    
+    - React Tailwind code:
+    
+    [https://twitter.com/gabe_ragland/status/1598068207994429441](https://twitter.com/gabe_ragland/status/1598068207994429441)
+    
 - Implementations
--
