@@ -81,7 +81,18 @@
     - GPT3: [[2005.14165] Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
     - ??: [[2205.11916] Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)
     - Transformers: [[1706.03762] Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-- TODO understand definitions
+    - Chinchilla: [A New AI Trend: Chinchilla (70B) Greatly Outperforms GPT-3 (175B) and Gopher (280B) | by Alberto Romero | Towards Data Science](https://towardsdatascience.com/a-new-ai-trend-chinchilla-70b-greatly-outperforms-gpt-3-175b-and-gopher-280b-408b9b4510)
+    - PaLM: [Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance – Google AI Blog](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html)
+- TODO Definitions
+    - Activation functions: sigmoid, atan, ReLU
+    - RNN, LSTM, GRU, bidirectional LSTM
+    - Encoder decoder
+    - Attention, transformers
+    - Generative, latent variable models
+        - Autoencoders, Variational autoencoders, GANs
+    - Reinforcement learning
+        - Learn Q: (state, action) → total future reward
+        - Value learning vs policy learning
     - seq2seq
     - bidirectional lstm
     - embed strings

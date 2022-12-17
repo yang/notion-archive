@@ -81,4 +81,6 @@
     
     [https://twitter.com/gabe_ragland/status/1598068207994429441](https://twitter.com/gabe_ragland/status/1598068207994429441)
     
+- Generic prompts
+    - Show me just the source code, with no prose or explanation, for only the main listing page of an Airbnb clone written in React, Next.js, Typescript, and Firebase. Support the ability to search, search on a map, filter, and add favorites.
 - Implementations
