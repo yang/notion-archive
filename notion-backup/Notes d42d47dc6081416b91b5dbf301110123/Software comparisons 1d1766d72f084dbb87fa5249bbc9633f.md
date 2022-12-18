@@ -1,5 +1,12 @@
 # Software comparisons
 
+- Compression
+    - Lzma2
+        - 7z
+        - Xz
+    - Zstd
+    - Gzip
+    - Bzip2
 - Note taking
     - Notion
         - Pros
