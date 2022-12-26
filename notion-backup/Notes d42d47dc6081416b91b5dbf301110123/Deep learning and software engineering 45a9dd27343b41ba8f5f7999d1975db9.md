@@ -55,6 +55,7 @@
     - What is this…. [[2109.00859] CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859)
     - [Conversational AI Programming with CodeGen: Let AI Write Code For You](https://blog.salesforceairesearch.com/codegen/)
     - [[2107.03374] Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)
+    - ML-Enhanced Code Completion Improves Developer Productivity [https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html?m=1](https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html?m=1)
 - Example applications
     - The Figma prototype: [I build my ideas #8 - 07/19/20](https://ibuildmyideas.substack.com/p/i-build-my-ideas-8-071920)
         
