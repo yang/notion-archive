@@ -194,7 +194,7 @@
         ```
         
 - Install or configure manually
-    - chsh to /bin/bash
+    - chsh: `sudo chsh -s /opt/local/bin/bash yang`
     - git-redate
     - barrier: [https://github.com/debauchee/barrier/issues/1609#issuecomment-1066938159](https://github.com/debauchee/barrier/issues/1609#issuecomment-1066938159)
         - As a workaround, you can manually create a certificate for it to use.
