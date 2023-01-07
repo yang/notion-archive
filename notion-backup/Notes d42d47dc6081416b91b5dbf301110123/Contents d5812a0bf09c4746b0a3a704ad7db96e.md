@@ -20,3 +20,5 @@
     - [Foam blasters](Foam%20blasters%20c5d561c54181477295af75062c084844.md)
 
 [React patterns](Contents%20d5812a0bf09c4746b0a3a704ad7db96e/React%20patterns%2010f52c6a19fc4ccea021cf9882fc17ee.md)
+
+[Python](Contents%20d5812a0bf09c4746b0a3a704ad7db96e/Python%20e09daea631a54c03a6b316ec5f68321c.md)

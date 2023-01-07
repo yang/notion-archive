@@ -1,5 +1,7 @@
 # General development
 
+[Python](Contents%20d5812a0bf09c4746b0a3a704ad7db96e/Python%20e09daea631a54c03a6b316ec5f68321c.md) 
+
 # Structural search and replace
 
 - IntelliJ
