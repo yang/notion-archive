@@ -152,27 +152,6 @@
     ```
     
 
-# Python development
-
-- pipx: install Python “end-user programs” in their own virtualenvs. Nice and easy.
-    - pipx install cookiecutter poetry
-- Scaffolding:
-    - Use hypermodern Python:
-        
-        ```jsx
-        cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2021.3.14
-        # Then
-        poetry install -D nox nox-poetry
-        cat > poetry.toml
-        [virtualenvs]
-        create = true
-        in-project = true
-        ^D
-        ```
-        
-    - The above still has [roadmap work ahead](https://github.com/cjolowicz/cookiecutter-hypermodern-python/issues/450)
-    - PyScaffold: doesn’t include poetry, github actions, etc. uses putup to keep things up to date
-
 # GitHub Actions
 
 ## Self-hosted runners
